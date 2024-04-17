@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T15:21:48 IST" name="Suite" finished-at="2024-03-20T15:22:12 IST" duration-ms="23461">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T15:21:48 IST" name="ChromeTest" finished-at="2024-03-20T15:21:57 IST" duration-ms="9114">
+      <class name="project.MiniProject">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:project.MiniProject@206a70ef]" started-at="2024-03-20T15:21:48 IST" name="initialize" finished-at="2024-03-20T15:21:57 IST" duration-ms="8684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="negative()[pri:0, instance:project.MiniProject@206a70ef]" started-at="2024-03-20T15:21:57 IST" name="negative" finished-at="2024-03-20T15:21:57 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative -->
+        <test-method is-config="true" signature="End()[pri:0, instance:project.MiniProject@206a70ef]" started-at="2024-03-20T15:21:57 IST" name="End" finished-at="2024-03-20T15:21:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- project.MiniProject -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-03-20T15:21:57 IST" name="EdgeTest" finished-at="2024-03-20T15:22:12 IST" duration-ms="14306">
+      <class name="project.MiniProject">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:project.MiniProject@4b2bac3f]" started-at="2024-03-20T15:21:57 IST" name="initialize" finished-at="2024-03-20T15:22:11 IST" duration-ms="14008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="negative()[pri:0, instance:project.MiniProject@4b2bac3f]" started-at="2024-03-20T15:22:11 IST" name="negative" finished-at="2024-03-20T15:22:12 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative -->
+        <test-method is-config="true" signature="End()[pri:0, instance:project.MiniProject@4b2bac3f]" started-at="2024-03-20T15:22:12 IST" name="End" finished-at="2024-03-20T15:22:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- project.MiniProject -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
